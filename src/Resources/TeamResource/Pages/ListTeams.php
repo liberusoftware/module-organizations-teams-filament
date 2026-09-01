@@ -8,6 +8,7 @@ use Liberu\Foundation\OrganizationsFilament\Resources\TeamResource;
 
 class ListTeams extends ListRecords
 {
+    #[\Override]
     protected static string $resource = TeamResource::class;
 
     /**

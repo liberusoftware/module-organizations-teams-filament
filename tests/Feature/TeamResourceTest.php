@@ -11,7 +11,7 @@ use Livewire\Livewire;
  * without rows cannot fail on the thing it is named for. `owner.name` in
  * particular only resolves if the relation and the configured user model agree.
  */
-it('renders the team table with its columns resolved', function () {
+it('renders the team table with its columns resolved', function (): void {
     // Created directly rather than through the factory: the testbench's factory
     // is bound to TestUser, so OrganizationUser::factory() still returns a
     // TestUser — and TeamPolicy type-hints the contract only this subclass has.

@@ -22,14 +22,19 @@ use Liberu\Foundation\OrganizationsFilament\Resources\TeamResource\Pages\ListTea
 
 class TeamResource extends Resource
 {
+    #[\Override]
     protected static ?string $model = Team::class;
 
+    #[\Override]
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-user-group';
 
+    #[\Override]
     protected static string|\UnitEnum|null $navigationGroup = 'Administration';
 
+    #[\Override]
     protected static ?string $navigationLabel = 'Teams';
 
+    #[\Override]
     protected static ?string $recordTitleAttribute = 'name';
 
     /**
