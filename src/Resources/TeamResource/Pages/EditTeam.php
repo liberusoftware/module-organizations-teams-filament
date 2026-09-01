@@ -8,7 +8,6 @@ use Liberu\Foundation\OrganizationsFilament\Resources\TeamResource;
 
 class EditTeam extends EditRecord
 {
-    #[\Override]
     protected static string $resource = TeamResource::class;
 
     /**
