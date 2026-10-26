@@ -3,15 +3,14 @@
   "name": "organizations-teams-filament",
   "display_name": "Organizations Administration",
   "description": "Optional Filament team administration resources.",
-  "version": "1.4.4",
+  "version": "1.5.0",
   "category": "presentation",
   "provider": "Liberu\\Foundation\\OrganizationsFilament\\OrganizationsFilamentServiceProvider",
   "requires": {
     "php": "^8.5",
     "laravel": "^13.0",
     "packages": {
-      "liberusoftware/organizations-teams": "^1.0",
-      "liberusoftware/filament-clusters-contracts": "^1.0"
+      "liberusoftware/organizations-teams": "^1.0"
     }
   },
   "suggests": [],
